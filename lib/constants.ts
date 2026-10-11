@@ -54,8 +54,8 @@ export type FaqItem = {
 }
 
 export const siteConfig = {
-  name: "LeadFlow",
-  title: "Real Estate Lead Management Software | AI-Assisted Lead Flow",
+  name: "Track Lead",
+  title: "Real Estate Lead Management Software | AI-Assisted Track Lead",
   description:
     "AI-assisted real estate lead management software for developers, agencies, and sales teams. Organize enquiries, prioritize follow-ups, guide sales activity, and track opportunities toward property booking.",
 } as const
@@ -153,7 +153,7 @@ export const solutionPillars: readonly IconContentItem[] = [
 export const lifecycleStages: readonly LifecycleStage[] = [
   {
     title: "Lead captured",
-    description: "Bring an incoming property enquiry into a shared lead flow.",
+    description: "Bring an incoming property enquiry into a shared Track Lead.",
     icon: Building2,
     ai: "Organizes available enquiry details.",
     team: "Confirms source and ownership.",
@@ -264,7 +264,7 @@ export const bookingStages = [
 ] as const
 
 export const analyticsItems: readonly IconContentItem[] = [
-  { title: "Lead flow", description: "Review lead volume and how opportunities move between stages.", icon: Route },
+  { title: "Track Lead", description: "Review lead volume and how opportunities move between stages.", icon: Route },
   { title: "Follow-up coverage", description: "See where next actions and overdue work need a closer look.", icon: BellRing },
   { title: "Team activity", description: "Give managers useful context for coaching and workload conversations.", icon: UsersRound },
   { title: "Pipeline progress", description: "Connect lead movement with site visits, negotiation, and booking progress.", icon: BarChart3 },

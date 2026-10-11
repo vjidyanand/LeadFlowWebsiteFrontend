@@ -14,7 +14,7 @@ function Brand() {
   return (
     <Link href="/" className="inline-flex min-h-11 items-center gap-2 rounded-lg text-lg font-bold tracking-[-0.02em] text-foreground focus-visible:outline-none">
       <div className="relative size-20 shrink-0">
-        <Image src="/logofr.png" alt="LeadFlow CRM" fill className="relative size-20" />
+        <Image src="/logofr.png" alt="TrackLead CRM" fill className="relative size-20" />
       </div>
       <span>{siteConfig.name}</span>
     </Link>

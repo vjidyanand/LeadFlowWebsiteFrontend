@@ -15,7 +15,7 @@ export function Integrations() {
           <SectionHeading
             id="integrations-title"
             eyebrow="Lead sources & integrations"
-            title="Bring the sources your team uses into a clearer lead flow."
+            title="Bring the sources your team uses into a clearer Track Lead."
             description="Start with the lead sources and business systems that matter to your team. Available connections and setup requirements should be confirmed for your workflow."
           />
           <div className="grid gap-4 sm:grid-cols-3">

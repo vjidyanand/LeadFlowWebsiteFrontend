@@ -40,7 +40,7 @@ export function DashboardPreview() {
                 <LayoutDashboard aria-hidden="true" className="size-5" />
               </span>
               <div>
-                <p className="text-sm font-semibold text-foreground">LeadFlow workspace</p>
+                <p className="text-sm font-semibold text-foreground">TRACKLEAD workspace</p>
                 <p className="mt-1 text-xs text-muted-foreground">Illustrative sample workspace — not customer data or performance results</p>
               </div>
             </div>

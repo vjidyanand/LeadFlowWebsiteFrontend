@@ -31,7 +31,7 @@ export const plans: readonly Plan[] = [
   {
     name: "Basic",
     label: "For getting started",
-    price: "Free",
+    price: "₹19,999",
     priceNote: "forever",
     description:
       "A focused lead workspace for a small property sales team.",
@@ -62,12 +62,12 @@ export const plans: readonly Plan[] = [
   {
     name: "Medium",
     label: "For growing sales teams",
-    price: "₹12,999",
+    price: "₹49,999",
     priceNote: "per month",
     description:
       "Connected sales, AI assistance and team controls for active developers and agencies.",
 
-    users: "Up to 15 users",
+    users: "Up to 10 users",
     leads: "Up to 5,000 active leads",
 
     featured: true,
@@ -97,12 +97,12 @@ export const plans: readonly Plan[] = [
   {
     name: "Premium",
     label: "For complete operations",
-    price: "₹29,999",
+    price: "₹159,999",
     priceNote: "per month",
     description:
       "A company-wide operating system for sales, people, projects and property bookings.",
 
-    users: "Up to 50 users",
+    users: "Up to 100 users",
     leads: "Unlimited active leads",
 
     usageLimits: [

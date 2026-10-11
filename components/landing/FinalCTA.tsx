@@ -17,7 +17,7 @@ export function FinalCTA() {
           <div className="lg:sticky lg:top-28">
             <p className="text-sm font-semibold text-blue-100">A walkthrough built around your business</p>
             <h2 id="final-cta-title" className="mt-3 max-w-2xl text-balance text-3xl font-bold tracking-[-0.02em] sm:text-4xl">
-              See how LeadFlow can support your real estate operation.
+              See how TRACKLEAD can support your real estate operation.
             </h2>
             <p className="mt-5 max-w-xl text-base leading-7 text-blue-100 sm:text-lg sm:leading-8">
               Tell us how your organization works today. We’ll focus the demo on the lead, project, people, and booking workflows that matter to your team.
