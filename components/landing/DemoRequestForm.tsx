@@ -100,15 +100,6 @@ function Field({
   )
 }
 
-function apiBaseUrl() {
-  const configured = process.env.NEXT_PUBLIC_API_BASE_URL?.replace(/\/$/, "")
-  if (configured) return configured
-  if (typeof window !== "undefined" && ["localhost", "127.0.0.1"].includes(window.location.hostname)) {
-    return "http://localhost:3000"
-  }
-  return "https://api.magicghar.com"
-}
-
 export function DemoRequestForm() {
   const { selectedPlan, selectPlan } = usePlanSelection()
   const [successMessage, setSuccessMessage] = useState<string | null>(null)
@@ -127,7 +118,7 @@ export function DemoRequestForm() {
     setSubmitError(null)
     setSuccessMessage(null)
     try {
-      const response = await fetch(`${apiBaseUrl()}/public/demo-requests`, {
+      const response = await fetch("/api/demo-requests", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
