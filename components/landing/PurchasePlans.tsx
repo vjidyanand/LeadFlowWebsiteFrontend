@@ -32,21 +32,21 @@ export const plans: readonly Plan[] = [
     name: "Basic",
     label: "For getting started",
     price: "₹19,999",
-    priceNote: "forever",
+    priceNote: "yearly",
     description:
       "A focused lead workspace for a small property sales team.",
 
     users: "Up to 3 users",
-    leads: "Up to 500 active leads",
+    leads: "Up to 10,000 active leads",
 
     usageLimits: [
-      "Up to 1 project",
+      "Up to 10 project",
       "Up to 100 inventory units",
       "Up to 1,000 new leads/month",
       "Up to 2 automation workflows",
       "Up to 100 AI credits/month",
       "Up to 500 WhatsApp conversations/month",
-      "Up to 2 GB storage",
+      "Up to 5 GB storage",
     ],
 
     features: [
@@ -63,12 +63,12 @@ export const plans: readonly Plan[] = [
     name: "Medium",
     label: "For growing sales teams",
     price: "₹49,999",
-    priceNote: "per month",
+    priceNote: "yearly",
     description:
       "Connected sales, AI assistance and team controls for active developers and agencies.",
 
     users: "Up to 10 users",
-    leads: "Up to 5,000 active leads",
+    leads: "Up to 50,000 active leads",
 
     featured: true,
 
@@ -102,7 +102,7 @@ export const plans: readonly Plan[] = [
     description:
       "A company-wide operating system for sales, people, projects and property bookings.",
 
-    users: "Up to 100 users",
+    users: "Up to 50 users",
     leads: "Unlimited active leads",
 
     usageLimits: [
@@ -110,9 +110,9 @@ export const plans: readonly Plan[] = [
       "Unlimited inventory units",
       "Unlimited lead sources",
       "Up to 100,000 automation runs/month",
-      "Up to 10,000 AI credits/month",
+      "Up to 6,000 AI credits/month",
       "Up to 50,000 WhatsApp conversations/month",
-      "Up to 250 GB storage",
+      "Up to 200 GB storage",
     ],
 
     features: [
