@@ -20,7 +20,7 @@ export function PropertyMatching() {
           id="matching-title"
           eyebrow="Property matching"
           title="Turn buyer context into more relevant property conversations."
-          description="Use the details available in the lead flow to help your team prepare better options. Suggestions inform the sales conversation; your team makes the recommendation."
+          description="Use the details available in the Track Lead to help your team prepare better options. Suggestions inform the sales conversation; your team makes the recommendation."
           centered
         />
 

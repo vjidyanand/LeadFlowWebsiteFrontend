@@ -1,8 +1,8 @@
-# Real Estate AI Lead Flow Management Landing Page — Copilot Implementation Plan
+# Real Estate AI Track Lead Management Landing Page — Copilot Implementation Plan
 
 ## Purpose
 
-This document is the master implementation plan for building a production-ready landing page for a Real Estate Lead Flow Management Platform.
+This document is the master implementation plan for building a production-ready landing page for a Real Estate Track Lead Management Platform.
 
 The platform manages real estate leads received from property portals such as 99acres and other lead sources. Leads move through multiple stages toward customer conversion and property booking. AI automation works alongside human sales employees to qualify, prioritize, engage, follow up, recommend properties, and identify conversion opportunities.
 
@@ -48,7 +48,7 @@ The implementation should be incremental.
 
 Build a premium B2B SaaS landing page for a:
 
-**Real Estate AI Lead Flow Management Platform**
+**Real Estate AI Track Lead Management Platform**
 
 The platform combines:
 
