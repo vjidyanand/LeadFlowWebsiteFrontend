@@ -54,7 +54,7 @@ export type FaqItem = {
 }
 
 export const siteConfig = {
-  name: "Track Lead",
+  name: "TrackLead",
   title: "Real Estate Lead Management Software | AI-Assisted Track Lead",
   description:
     "AI-assisted real estate lead management software for developers, agencies, and sales teams. Organize enquiries, prioritize follow-ups, guide sales activity, and track opportunities toward property booking.",
