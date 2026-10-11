@@ -290,7 +290,7 @@ export function DemoRequestForm() {
           <div className="space-y-2">
             <label className="flex items-start gap-3 text-sm leading-5 text-muted-foreground">
               <input type="checkbox" {...register("consent")} className="mt-0.5 size-4 shrink-0 rounded border-input accent-primary" aria-invalid={Boolean(errors.consent)} />
-              <span>I agree that LeadFlow may contact me about this demo request.</span>
+              <span>I agree that TRACKLEAD may contact me about this demo request.</span>
             </label>
             {errors.consent?.message ? <p className="text-xs font-medium text-destructive">{errors.consent.message}</p> : null}
           </div>

@@ -62,7 +62,7 @@ export function Hero() {
             <Card className="relative overflow-hidden border-slate-200 bg-card p-4 shadow-[0_12px_24px_-12px_rgba(16,24,40,0.18)] sm:p-6">
               <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border pb-4">
                 <div>
-                  <p className="text-sm font-semibold text-foreground">Lead flow workspace</p>
+                  <p className="text-sm font-semibold text-foreground">Track Lead workspace</p>
                   <p className="mt-1 text-sm text-muted-foreground">Illustrative workflow view</p>
                 </div>
                 <Badge variant="ai">AI assistance active</Badge>
