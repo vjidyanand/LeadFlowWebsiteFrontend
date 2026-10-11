@@ -14,7 +14,7 @@ export function Footer() {
               {siteConfig.name}
             </a>
             <p className="mt-4 max-w-sm text-sm leading-6 text-muted-foreground">
-              AI-assisted lead flow management for real estate sales teams.
+              AI-assisted Track Lead management for real estate sales teams.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-x-8 gap-y-3 text-sm sm:grid-cols-3">

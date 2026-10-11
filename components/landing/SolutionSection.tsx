@@ -16,7 +16,7 @@ export function SolutionSection() {
           <SectionHeading
             id="solution-title"
             eyebrow="One connected system"
-            title="One lead flow for your team, with AI assistance at every useful step."
+            title="One Track Lead for your team, with AI assistance at every useful step."
             description="Lead management, sales execution, and manager visibility work together—so your team can focus on better conversations, not disconnected tools."
           />
           <div className="flex lg:justify-end">

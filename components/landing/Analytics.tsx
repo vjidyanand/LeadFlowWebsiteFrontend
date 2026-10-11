@@ -25,7 +25,7 @@ export function Analytics() {
               id="analytics-title"
               eyebrow="Analytics & reporting"
               title="Know where every lead stands—and where your team can improve."
-              description="Review the lead flow, follow-up coverage, team activity, and pipeline progress to make more useful sales-management conversations possible."
+              description="Review the Track Lead, follow-up coverage, team activity, and pipeline progress to make more useful sales-management conversations possible."
             />
             <div className="mt-8 grid gap-3 sm:grid-cols-2">
               {analyticsItems.map((item) => {
