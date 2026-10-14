@@ -54,10 +54,10 @@ export type FaqItem = {
 }
 
 export const siteConfig = {
-  name: "Track Lead",
-  title: "Real Estate Lead Management Software | AI-Assisted Track Lead",
+  name: "TrackLead",
+  title: "TrackLead | Real Estate Lead Management CRM",
   description:
-    "AI-assisted real estate lead management software for developers, agencies, and sales teams. Organize enquiries, prioritize follow-ups, guide sales activity, and track opportunities toward property booking.",
+    "Manage property enquiries with AI-assisted workflows, team follow-ups, analytics, and booking progress in TrackLead, a CRM for real estate sales teams.",
 } as const
 
 export const primaryCta: Cta = {
@@ -264,7 +264,7 @@ export const bookingStages = [
 ] as const
 
 export const analyticsItems: readonly IconContentItem[] = [
-  { title: "Track Lead", description: "Review lead volume and how opportunities move between stages.", icon: Route },
+  { title: "TrackLead", description: "Review lead volume and how opportunities move between stages.", icon: Route },
   { title: "Follow-up coverage", description: "See where next actions and overdue work need a closer look.", icon: BellRing },
   { title: "Team activity", description: "Give managers useful context for coaching and workload conversations.", icon: UsersRound },
   { title: "Pipeline progress", description: "Connect lead movement with site visits, negotiation, and booking progress.", icon: BarChart3 },
