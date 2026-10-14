@@ -29,6 +29,7 @@ export const landingMetadata: Metadata = {
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,
+    url: "https://trackleadcrm.com/",
     type: "website",
     images: [{ url: "/logofr11.png", alt: "TrackLead logo" }],
   },
