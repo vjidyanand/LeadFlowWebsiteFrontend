@@ -2,12 +2,22 @@ import type { Metadata } from "next"
 
 import { siteConfig } from "@/lib/constants"
 
+const configuredSiteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  process.env.VERCEL_PROJECT_PRODUCTION_URL ||
+  process.env.VERCEL_URL
+const metadataBase = configuredSiteUrl
+  ? new URL(configuredSiteUrl.startsWith("http") ? configuredSiteUrl : `https://${configuredSiteUrl}`)
+  : undefined
+
 export const landingMetadata: Metadata = {
-  metadataBase: new URL("https://trackleadcrm.com"),
+  metadataBase,
   title: siteConfig.title,
   description: siteConfig.description,
-  alternates: {
-    canonical: "/",
+  icons: {
+    icon: "/logofr.png",
+    shortcut: "/logofr.png",
+    apple: "/logofr.png",
   },
   keywords: [
     "real estate lead management software",
@@ -20,21 +30,13 @@ export const landingMetadata: Metadata = {
     title: siteConfig.title,
     description: siteConfig.description,
     url: "https://trackleadcrm.com/",
-    siteName: siteConfig.name,
     type: "website",
-    images: [
-      {
-        url: "/logofr11.png",
-        width: 1426,
-        height: 1103,
-        alt: "TrackLead real estate CRM logo",
-      },
-    ],
+    images: [{ url: "/logofr11.png", alt: "TrackLead logo" }],
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    images: ["/logofr11.png"],
+    images: [{ url: "/logofr11.png", alt: "TrackLead logo" }],
   },
 }
